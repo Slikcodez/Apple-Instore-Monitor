@@ -16,7 +16,7 @@ webhook.execute()
 session = tls_client.Session(
     client_identifier="chrome_105"
 )
-myfile = open('proxy.txt','r')
+myfile = open('proxies.txt','r')
 proxy1 = myfile.read()
 proxies = proxy1.split("\n")
 def webhook(link):
